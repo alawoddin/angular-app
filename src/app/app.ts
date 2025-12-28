@@ -12,5 +12,6 @@ import { Topbar } from './topbar/topbar';
   styleUrl: './app.css'
 })
 export class App {
+  name: string ="the title is can be change"
   protected readonly title = signal('my-angular-app');
 }
